@@ -1,5 +1,6 @@
 package com.dragongrok.moresaddles.item;
 
+import com.dragongrok.moresaddles.compat.CuriosCompat;
 import com.dragongrok.moresaddles.compat.DragonSurvivalCompat;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionHand;
@@ -13,7 +14,8 @@ import net.minecraft.world.level.Level;
 import java.util.List;
 
 /**
- * Custom saddle item that reacts to Dragon Survival state.
+ * Custom saddle item that reacts to Dragon Survival state
+ * and can be equipped in the Curios dragon_saddle slot.
  */
 public class DragonSaddleItem extends Item {
 
@@ -51,7 +53,6 @@ public class DragonSaddleItem extends Item {
                             Component.translatable("message.moresaddles.equipped." + tier.id),
                             true
                     );
-                    // Future: apply real visual / ability effect when DS exposes a stable skin/armor API
                 } else {
                     player.displayClientMessage(
                             Component.translatable("message.moresaddles.need_dragon"),
@@ -72,10 +73,17 @@ public class DragonSaddleItem extends Item {
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
         tooltip.add(Component.translatable("tooltip.moresaddles." + tier.id));
+
         if (DragonSurvivalCompat.isDragonSurvivalLoaded()) {
             tooltip.add(Component.translatable("tooltip.moresaddles.ds_linked"));
         } else {
             tooltip.add(Component.translatable("tooltip.moresaddles.ds_missing"));
+        }
+
+        if (CuriosCompat.isCuriosLoaded()) {
+            tooltip.add(Component.translatable("tooltip.moresaddles.curios_slot"));
+        } else {
+            tooltip.add(Component.translatable("tooltip.moresaddles.curios_missing"));
         }
     }
 }
