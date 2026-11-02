@@ -1,26 +1,59 @@
 # More Saddles
 
-**Мод для Minecraft (Dragon Survival)** — добавляет больше сёдел для драконов!
+**Мод для Minecraft 1.21.1 (NeoForge) + Dragon Survival**  
+Добавляет больше сёдел для драконов!
 
 ## Описание
 
-Этот мод расширяет возможности Dragon Survival, добавляя новые виды сёдел для ваших драконов.
+Этот мод расширяет возможности **Dragon Survival**, добавляя новые виды сёдел для ваших драконов.
+
+Сейчас в скелете есть три примера предметов:
+- `dragon_saddle_basic` — Простое седло дракона
+- `dragon_saddle_fancy` — Нарядное седло дракона
+- `dragon_saddle_royal` — Королевское седло дракона
 
 ## Требования
 
-- Minecraft (версия зависит от Dragon Survival)
-- Мод [Dragon Survival](https://www.curseforge.com/minecraft/mc-mods/dragons-survival)
+- **Minecraft** 1.21.1
+- **NeoForge** 21.1.x+
+- **Dragon Survival** (рекомендуется, зависимость optional)
 
-## Установка
+## Установка для разработчика
 
-1. Установите Forge / Fabric / NeoForge (в зависимости от версии)
-2. Установите Dragon Survival
-3. Положите этот мод в папку `mods`
+1. Клонируй репозиторий
+2. Открой в IntelliJ IDEA / VS Code
+3. Запусти `./gradlew genIntellijRuns` (или Eclipse)
+4. Запусти клиент через run configuration `client`
 
-## Статус
+```bash
+./gradlew runClient
+```
 
-Репозиторий создан. Код мода будет добавляться здесь.
+## Структура проекта
+
+```
+More-Saddles/
+├── build.gradle
+├── gradle.properties
+├── settings.gradle
+├── src/main/java/com/dragongrok/moresaddles/
+│   └── MoreSaddles.java          ← главный класс мода
+├── src/main/resources/
+│   └── assets/moresaddles/lang/
+│       ├── en_us.json
+│       └── ru_ru.json
+└── src/main/templates/META-INF/
+    └── neoforge.mods.toml
+```
+
+## Дальнейшие шаги
+
+- [ ] Добавить настоящую интеграцию с Dragon Survival (седла для драконов)
+- [ ] Текстуры и модели
+- [ ] Рецепты
+- [ ] Конфиг
 
 ---
 
-Сделано с любовью твоим добрым драконом с седлом 🐉
+Сделано с любовью твоим добрым драконом с седлом 🐉  
+Репозиторий: https://github.com/dragongrok2-cloud/More-Saddles
