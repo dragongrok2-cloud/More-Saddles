@@ -19,12 +19,15 @@ sourceSets.main.resources {
 }
 
 repositories {
-    // CurseMaven for Dragon Survival
     maven {
         url = "https://cursemaven.com"
         content {
             includeGroup "curse.maven"
         }
+    }
+    maven {
+        name = "Curios"
+        url = uri("https://maven.theillusivec4.top/")
     }
 }
 
@@ -82,7 +85,11 @@ configurations {
 }
 
 dependencies {
-    // Dragon Survival (optional for now - uncomment and update file ID when needed)
+    // Curios API (compileOnly so the mod still builds/runs without it; runtime optional)
+    compileOnly "top.theillusivec4.curios:curios-neoforge:9.2.2+1.21.1:api"
+    localRuntime "top.theillusivec4.curios:curios-neoforge:9.2.2+1.21.1"
+
+    // Dragon Survival (optional)
     // implementation "curse.maven:dragons-survival-420799:8765068"
 }
 
