@@ -5,12 +5,17 @@
   "item.moresaddles.dragon_saddle_fancy": "Нарядное седло дракона",
   "item.moresaddles.dragon_saddle_royal": "Королевское седло дракона",
 
+  "curios.identifier.dragon_saddle": "Седло дракона",
+  "curios.modifiers.dragon_saddle": "Когда надето в слот Седло дракона:",
+
   "tooltip.moresaddles.basic": "Простое кожаное седло для драконов",
   "tooltip.moresaddles.fancy": "Элегантное украшенное седло",
   "tooltip.moresaddles.royal": "Великолепное золотое королевское седло",
 
   "tooltip.moresaddles.ds_linked": "§aСовместимо с Dragon Survival",
   "tooltip.moresaddles.ds_missing": "§7Установите Dragon Survival для полного функционала",
+  "tooltip.moresaddles.curios_slot": "§bЭкипируется в Curios: слот Седло дракона",
+  "tooltip.moresaddles.curios_missing": "§7Установите Curios для слота экипировки",
 
   "message.moresaddles.equipped.basic": "Вы надели Простое седло дракона",
   "message.moresaddles.equipped.fancy": "Вы надели Нарядное седло дракона",
