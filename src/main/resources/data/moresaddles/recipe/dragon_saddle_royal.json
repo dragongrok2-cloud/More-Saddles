@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": { "item": "moresaddles:dragon_saddle_fancy" },
+    "D": { "item": "minecraft:diamond" },
+    "G": { "item": "minecraft:gold_block" },
+    "N": { "item": "minecraft:netherite_scrap" }
+  },
+  "pattern": [
+    "GDG",
+    "NFN",
+    "GDG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "moresaddles:dragon_saddle_royal"
+  }
+}
