@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": { "item": "moresaddles:dragon_saddle_basic" },
+    "G": { "item": "minecraft:gold_ingot" },
+    "S": { "item": "minecraft:string" }
+  },
+  "pattern": [
+    "GSG",
+    "GBG",
+    "GSG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "moresaddles:dragon_saddle_fancy"
+  }
+}
