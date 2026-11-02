@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": { "item": "minecraft:leather" },
+    "I": { "item": "minecraft:iron_ingot" },
+    "S": { "item": "minecraft:string" }
+  },
+  "pattern": [
+    " L ",
+    "LSL",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "moresaddles:dragon_saddle_basic"
+  }
+}
