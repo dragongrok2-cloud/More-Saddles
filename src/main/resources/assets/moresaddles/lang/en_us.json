@@ -5,12 +5,17 @@
   "item.moresaddles.dragon_saddle_fancy": "Fancy Dragon Saddle",
   "item.moresaddles.dragon_saddle_royal": "Royal Dragon Saddle",
 
+  "curios.identifier.dragon_saddle": "Dragon Saddle",
+  "curios.modifiers.dragon_saddle": "When equipped as Dragon Saddle:",
+
   "tooltip.moresaddles.basic": "A simple leather saddle for dragons",
   "tooltip.moresaddles.fancy": "An elegant decorated saddle",
   "tooltip.moresaddles.royal": "A magnificent golden royal saddle",
 
   "tooltip.moresaddles.ds_linked": "§aCompatible with Dragon Survival",
   "tooltip.moresaddles.ds_missing": "§7Install Dragon Survival for full features",
+  "tooltip.moresaddles.curios_slot": "§bEquip in Curios: Dragon Saddle slot",
+  "tooltip.moresaddles.curios_missing": "§7Install Curios for equipment slot",
 
   "message.moresaddles.equipped.basic": "You equipped the Basic Dragon Saddle",
   "message.moresaddles.equipped.fancy": "You equipped the Fancy Dragon Saddle",
