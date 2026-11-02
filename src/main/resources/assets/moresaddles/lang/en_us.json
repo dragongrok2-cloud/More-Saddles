@@ -1,6 +1,20 @@
 {
   "itemGroup.moresaddles": "More Saddles",
+
   "item.moresaddles.dragon_saddle_basic": "Basic Dragon Saddle",
   "item.moresaddles.dragon_saddle_fancy": "Fancy Dragon Saddle",
-  "item.moresaddles.dragon_saddle_royal": "Royal Dragon Saddle"
+  "item.moresaddles.dragon_saddle_royal": "Royal Dragon Saddle",
+
+  "tooltip.moresaddles.basic": "A simple leather saddle for dragons",
+  "tooltip.moresaddles.fancy": "An elegant decorated saddle",
+  "tooltip.moresaddles.royal": "A magnificent golden royal saddle",
+
+  "tooltip.moresaddles.ds_linked": "§aCompatible with Dragon Survival",
+  "tooltip.moresaddles.ds_missing": "§7Install Dragon Survival for full features",
+
+  "message.moresaddles.equipped.basic": "You equipped the Basic Dragon Saddle",
+  "message.moresaddles.equipped.fancy": "You equipped the Fancy Dragon Saddle",
+  "message.moresaddles.equipped.royal": "You equipped the Royal Dragon Saddle",
+  "message.moresaddles.need_dragon": "You must be in dragon form to use this saddle",
+  "message.moresaddles.no_ds": "Dragon Survival is not installed"
 }
