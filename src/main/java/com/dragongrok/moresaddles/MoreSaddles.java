@@ -1,5 +1,6 @@
 package com.dragongrok.moresaddles;
 
+import com.dragongrok.moresaddles.compat.CuriosCompat;
 import com.dragongrok.moresaddles.compat.DragonSurvivalCompat;
 import com.dragongrok.moresaddles.item.DragonSaddleItem;
 import com.mojang.logging.LogUtils;
@@ -75,7 +76,10 @@ public class MoreSaddles {
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
-        event.enqueueWork(DragonSurvivalCompat::logStatus);
+        event.enqueueWork(() -> {
+            DragonSurvivalCompat.logStatus();
+            CuriosCompat.logStatus();
+        });
         LOGGER.info("More Saddles common setup complete.");
     }
 
