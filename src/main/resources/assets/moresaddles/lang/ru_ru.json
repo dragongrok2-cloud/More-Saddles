@@ -1,6 +1,20 @@
 {
   "itemGroup.moresaddles": "Больше сёдел",
+
   "item.moresaddles.dragon_saddle_basic": "Простое седло дракона",
   "item.moresaddles.dragon_saddle_fancy": "Нарядное седло дракона",
-  "item.moresaddles.dragon_saddle_royal": "Королевское седло дракона"
+  "item.moresaddles.dragon_saddle_royal": "Королевское седло дракона",
+
+  "tooltip.moresaddles.basic": "Простое кожаное седло для драконов",
+  "tooltip.moresaddles.fancy": "Элегантное украшенное седло",
+  "tooltip.moresaddles.royal": "Великолепное золотое королевское седло",
+
+  "tooltip.moresaddles.ds_linked": "§aСовместимо с Dragon Survival",
+  "tooltip.moresaddles.ds_missing": "§7Установите Dragon Survival для полного функционала",
+
+  "message.moresaddles.equipped.basic": "Вы надели Простое седло дракона",
+  "message.moresaddles.equipped.fancy": "Вы надели Нарядное седло дракона",
+  "message.moresaddles.equipped.royal": "Вы надели Королевское седло дракона",
+  "message.moresaddles.need_dragon": "Вы должны быть в форме дракона, чтобы использовать это седло",
+  "message.moresaddles.no_ds": "Dragon Survival не установлен"
 }
